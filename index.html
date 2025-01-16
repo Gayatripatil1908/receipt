@@ -23,6 +23,51 @@
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
         }
+        .address{
+            text-align: right;
+
+        }
+        .mobile{
+            text-align: right;
+        }
+        .header{
+            border-bottom: 1px dashed gray;
+        }
+        .receipt-title{
+            text-align: center;
+            font-size: 30px;
+            margin: 40px 0;
+        }
+        .key{
+            color: gray;
+            width: 30%;
+
+        }
+        .value{
+            font-weight: bold;
+            border-bottom: 1px dashed gray;
+            width: 30%;
+
+        }
+        .receipt-details{
+            display: flex;
+            justify-content: center;
+            font-size: 20px;
+            margin: 20px 0;
+        }
+        .accountant-signature{
+            text-align: right;
+            margin-top: 100px;
+        }
+        .stamp{
+            width: 150px;
+            position: absolute;
+            right: 0px;
+            bottom: -20px;
+        }
+        .body{
+            position: relative;
+        }
     </style>
 </head>
 
@@ -30,10 +75,59 @@
     <div class="container">
         <div class="header">
             <img src="./img/logo.jpeg" class="logo">
+            <p class="address"> 
+                902, near Tejas Hotel,<br>
+                 Hingna road,<br> Nagpur-440025
+            </p>
+            <p class="mobile">
+                +91-5879642315
+            </p>
 
         </div>
         <div class="body">
+            <h3 class="receipt-title">
+                Payment Receipt
+            </h3>
+            <div class="receipt-details">
+                <div class="key">
+                    Receipt No. :
+                </div>
+                <div class="value">
+                    784755586
+                </div>
+            </div>
+            <div class="receipt-details">
+                <div class="key">
+                    Amount :
+                </div>
+                <div class="value">
+                    10,000/-
+                </div>
+            </div>
+            <div class="receipt-details">
+                <div class="key">
+                     Payment Mode :
+                </div>
+                <div class="value">
+                    UPI
+                </div>
+            </div>
+            <div class="receipt-details">
+                <div class="key">
+                    Payment Date :
+                </div>
+                <div class="value">
+                    15-01-2025
+                </div>
+            </div>
+            <img src="./img/stamp.jpeg" class="stamp">
+            <p class="accountant-signature">
+                Accountant Signature
+            </p>
             
+            
+            
+
         </div>
         <div class="footer">
             
